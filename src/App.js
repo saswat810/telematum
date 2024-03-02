@@ -85,7 +85,7 @@ const App = () => {
                     <div className="ml-1">
                       <p className="text-gray-900 whitespace-no-wrap">
                         {dayjs(attribute.appointment_date).format(
-                          "DD MMM, YYYY"
+                          "DD MMM YYYY"
                         )}
                       </p>
                     </div>
